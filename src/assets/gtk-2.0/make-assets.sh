@@ -361,7 +361,7 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
 
         if [[ "$type" == "-Catppuccin" ]]; then
           background_color='#292c3c'
-          case "$theme" in 
+          case "$theme" in
             '')
               theme_color='#8caaee'
               ;;
