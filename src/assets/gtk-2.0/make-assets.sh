@@ -393,7 +393,7 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
         fi
       fi
 
-      if [[ "$type" == '-Everforest' ]]; then
+      if [[ "$type" == '-Rosepine' ]]; then
         background_color='#272e33'
         case "$theme" in
           '')
