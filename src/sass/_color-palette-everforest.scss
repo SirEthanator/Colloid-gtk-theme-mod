@@ -64,7 +64,7 @@ $button-max: if($variant == 'light', $green-dark, $green-light);
 $button-min: if($variant == 'light', $yellow-dark, $yellow-light);
 
 // Link
-$links: $blue-dark;
+$links: if($variant == 'light', $blue-dark, $blue-light);
 
 // Theme
 $default-light: $blue-light;
