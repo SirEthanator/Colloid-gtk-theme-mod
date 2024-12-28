@@ -160,9 +160,9 @@ install() {
 
   mkdir -p                                                                                   "${THEME_DIR}/plank"
   if [[ "$color" == '-Light' ]]; then
-    cp -r "${SRC_DIR}/main/plank/theme-Light${scheme}/"*                                     "${THEME_DIR}/plank"
+    cp -r "${SRC_DIR}/main/plank/theme-Light${scheme}/"*                                     "${THEME_DIR}/plank" || true
   else
-    cp -r "${SRC_DIR}/main/plank/theme-Dark${scheme}/"*                                      "${THEME_DIR}/plank"
+    cp -r "${SRC_DIR}/main/plank/theme-Dark${scheme}/"*                                      "${THEME_DIR}/plank" || true
   fi
 }
 
