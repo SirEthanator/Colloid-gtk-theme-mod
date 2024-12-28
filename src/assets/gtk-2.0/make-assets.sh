@@ -366,7 +366,7 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
               theme_color='#8caaee'
               ;;
             -Purple)
-              theme_color='#ca9ee6'
+              theme_color='#b4befe'
               ;;
             -Pink)
               theme_color='#f4b8e4'
